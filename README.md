@@ -1,2 +1,2 @@
 # othyn.com
-V2 of my website
+This repo is the codebase for my website: [othyn.com](https://othyn.com)
