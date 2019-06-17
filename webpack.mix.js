@@ -11,5 +11,30 @@ const mix = require('laravel-mix');
  |
  */
 
+let options = {
+    processCssUrls: false,
+    autoprefixer: {
+        browsers: ['last 3 versions', '> 1%'],
+        cascade: true
+    }
+};
+// Mix options
+
+if (mix.inProduction()) {
+
+    mix.version();
+    // Generate with versioning / cache busting
+
+    // options.purifyCss = true;
+    // Only compile required CSS
+}
+
+mix.options(options);
+// Webpack plugin config
+
+mix.extract(['axios', 'jquery']);
+// JS Vendor
+
 mix.js('resources/js/app.js', 'public/js')
-    .sass('resources/sass/app.scss', 'public/css');
+   .sass('resources/sass/app.scss', 'public/css');
+// SASS and JS
