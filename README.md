@@ -1,5 +1,5 @@
 # othyn.com
-My personal website!
+My personal website! ... But why an entire Laravel installation for a personal website? Flexibility. If I ever feel like a blog or something in future, the option is there for the small overhead impact. Plus, it's nice to develop in 😉
 
 ## Setup
 The project runs using a per project installation of Homestead. [Instructions on installation and setup](https://laravel.com/docs/5.8/homestead), and more specifically the [per-project installation](https://laravel.com/docs/5.8/homestead#per-project-installation) are on Laravel's website, although I'll cover the step-by-step process below for getting this up and running for this project.
