@@ -2,8 +2,10 @@
 
 @section ('main-content')
 
-    <div class="h-100 text-center">
-        <typography-title></typography-title>
+    <div class="row h-100 align-items-center text-center">
+        <div class="col-12 title">
+            <h1>othyn.</h1>
+        </div>
     </div>
 
 @endsection
