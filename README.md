@@ -4,7 +4,7 @@ My personal website! ... But why an entire Laravel installation for a personal w
 ## Setup
 The project runs using a per project installation of Homestead. [Instructions on installation and setup](https://laravel.com/docs/5.8/homestead), and more specifically the [per-project installation](https://laravel.com/docs/5.8/homestead#per-project-installation) are on Laravel's website, although I'll cover the step-by-step process below for getting this up and running for this project.
 
-### Dev Dependancies
+### Dev Dependencies
 These are the underlying requirements of the system in order to develop for the project, assuming you're on macOS.
 
 0. Install [brew](https://brew.sh), which is a delicious pacakge manager for macOS! Helps you for a myriad of things, not just this, seriously just install it.
