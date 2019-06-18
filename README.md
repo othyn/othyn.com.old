@@ -47,3 +47,7 @@ Done!
 Run `$ vagrant up`. The first time the box is used, it will download the source vagrant box which may take some time. After it's finished its boot and provision, you can navigate to `othyn.test` in your browser.
 
 [Laravel Mix](https://laravel.com/docs/5.8/mix) powers client side asset development, run `$ yarn dev` to compile assets one off without minification or production rules, or run a watcher with `$ yarn watch` - although this doesn't always pickup sass changes.
+
+## Deployment
+
+More of a personal note really. Copy the *finalised* .env file to the webserver's doc root for the virtual host. Finalised meaning; app key set, environment set to production, debug to false and db credentials in place. Getting it onto the webserver, which is usually easiest either via a straight scp or ssh and `nano /var/www/othyn.com/shared/.env` and paste the contents in. Then `chown deployer:www-data /var/www/othyn.com/shared/.env && chmod 640 /var/www/othyn.com/shared/.env` to set the permissions. Then finally, `dep deploy` and it should be golden!
