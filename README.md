@@ -33,7 +33,7 @@ These are the underlying requirements of the system in order to develop for the 
 Consistency is nice.
 
 ### Installation
-These are the requirements for the project specifically, installing software dependencies for Laravel and setting up Homestead for use with Vagrant.
+These are the requirements for the project specifically, installing project dependencies for Laravel and setting up Homestead for use with Vagrant.
 
 0. `$ cd` into the project, wherever you cloned it, as all of the below will need to be executed from within it.
 
