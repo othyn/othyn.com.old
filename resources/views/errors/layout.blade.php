@@ -1,57 +1,16 @@
 <!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+<html lang="{{ str_replace('_', '-', app()->getLocale()) }}" class="h-100">
+    @include ('layouts.header')
 
-        <title>@yield('title')</title>
-
-        <!-- Fonts -->
-        <link rel="dns-prefetch" href="//fonts.gstatic.com">
-        <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet" type="text/css">
-
-        <!-- Styles -->
-        <style>
-            html, body {
-                background-color: #fff;
-                color: #636b6f;
-                font-family: 'Nunito', sans-serif;
-                font-weight: 100;
-                height: 100vh;
-                margin: 0;
-            }
-
-            .full-height {
-                height: 100vh;
-            }
-
-            .flex-center {
-                align-items: center;
-                display: flex;
-                justify-content: center;
-            }
-
-            .position-ref {
-                position: relative;
-            }
-
-            .content {
-                text-align: center;
-            }
-
-            .title {
-                font-size: 36px;
-                padding: 20px;
-            }
-        </style>
-    </head>
-    <body>
-        <div class="flex-center position-ref full-height">
-            <div class="content">
-                <div class="title">
-                    @yield('message')
+    <body class="h-100">
+        <div class="container h-100">
+            <div class="row h-100 align-items-center text-center">
+                <div class="col-12">
+                    <h4 class="subtitle rainbow">@yield('code'). @yield('message').</h4>
                 </div>
             </div>
         </div>
+
+        @include ('layouts.footer')
     </body>
 </html>
