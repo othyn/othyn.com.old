@@ -31,13 +31,13 @@
         methods: {
             onMouseOver(event) {
                 if (this.isFullScreen) {
-                    $(event.target).parent().addClass('rainbow')
+                    $('body').addClass('rainbow')
                     $(event.target).removeClass('rainbow')
                 }
             },
             onMouseLeave(event) {
                 if (this.isFullScreen) {
-                    $(event.target).parent().removeClass('rainbow')
+                    $('body').removeClass('rainbow')
                     $(event.target).addClass('rainbow')
                 }
             },
