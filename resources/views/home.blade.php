@@ -1,5 +1,7 @@
 @extends ('layouts.master')
 
+@section ('title', 'home')
+
 @section ('main-content')
 
     @component('components.fullscreen')
