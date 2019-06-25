@@ -1,14 +1,10 @@
 <template>
-    <div class="row h-100 align-items-center text-center">
-        <div class="col-12">
-            <h1 class="title rainbow"
-                @mouseover="onMouseOver($event)"
-                @mouseleave="onMouseLeave($event)"
-            >
-                {{ title }}.
-            </h1>
-        </div>
-    </div>
+    <h1 class="title rainbow"
+        @mouseover="onMouseOver($event)"
+        @mouseleave="onMouseLeave($event)"
+    >
+        {{ title }}.
+    </h1>
 </template>
 
 <script>
@@ -35,13 +31,13 @@
         methods: {
             onMouseOver(event) {
                 if (this.isFullScreen) {
-                    $('body').addClass('rainbow')
+                    $(event.target).parent().addClass('rainbow')
                     $(event.target).removeClass('rainbow')
                 }
             },
             onMouseLeave(event) {
                 if (this.isFullScreen) {
-                    $('body').removeClass('rainbow')
+                    $(event.target).parent().removeClass('rainbow')
                     $(event.target).addClass('rainbow')
                 }
             },

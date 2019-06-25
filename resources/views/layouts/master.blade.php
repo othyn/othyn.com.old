@@ -5,9 +5,11 @@
     <body class="h-100">
         <div id="app" class="h-100">
             @if (View::hasSection('main-content'))
-                <div class="container h-100">
-                    @yield ('main-content')
-                </div>
+                @yield ('main-content')
+            @else
+                @component('components.fullscreen')
+                    <h4 class="subtitle rainbow">This page has no content.</h4>
+                @endcomponent
             @endif
         </div>
 
