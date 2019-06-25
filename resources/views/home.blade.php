@@ -8,4 +8,8 @@
         <typography-title is-full-screen></typography-title>
     @endcomponent
 
+    @component('components.lightblock')
+        @include('home.timeline')
+    @endcomponent
+
 @endsection
