@@ -10,9 +10,12 @@
 // Bootstrap
 @import '~bootstrap/scss/bootstrap';
 
+// Global styling
+@import 'globals';
+
 // Component styling
 @import 'components';
 
 // Title styling
-@import 'title';
+@import 'titles';
 

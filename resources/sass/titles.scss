@@ -1,0 +1,17 @@
+h1.title {
+    color: $body-bg;
+    font-size: 7rem;
+    transition: letter-spacing 1.2s cubic-bezier(0.4, 0, 0.2, 1);
+    letter-spacing: .8rem;
+}
+
+h4.subtitle {
+    color: $body-bg;
+}
+
+h1.title.rainbow,
+h4.subtitle.rainbow {
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    letter-spacing: inherit;
+}
