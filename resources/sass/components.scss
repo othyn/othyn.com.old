@@ -1,15 +1,52 @@
-#component-fullscreen {
+.component-fullscreen {}
+
+.component-typography-title {
+    color: $body-bg;
+    font-size: 7rem;
+    transition: letter-spacing 1.2s cubic-bezier(0.4, 0, 0.2, 1);
+    letter-spacing: .8rem;
 }
 
-#component-lightblock {
-    background: $body-bg-light;
-    margin-top: 75px;
-    margin-bottom: 75px;
-    box-shadow:
-        0 25px 0 rgba(238, 238, 238, 0.3),
-        0 50px 0 rgba(238, 238, 238, 0.2),
-        0 75px 0 rgba(238, 238, 238, 0.1),
-        0 -75px 0 rgba(238, 238, 238, 0.1),
-        0 -50px 0 rgba(238, 238, 238, 0.2),
-        0 -25px 0 rgba(238, 238, 238, 0.3);
+.component-block {
+    width: 100%;
+    margin: 4.5rem 0;
+    padding: 2rem 0;
+
+    &-light {
+        background: $body-bg-light;
+        box-shadow:
+            0 1.5rem 0 rgba(238, 238, 238, 0.3),
+            0 3rem 0 rgba(238, 238, 238, 0.2),
+            0 4.5rem 0 rgba(238, 238, 238, 0.1),
+            0 -4.5rem 0 rgba(238, 238, 238, 0.1),
+            0 -3rem 0 rgba(238, 238, 238, 0.2),
+            0 -1.5rem 0 rgba(238, 238, 238, 0.3);
+    }
+
+    &-dark {
+        background: $body-bg;
+    }
+
+    p {
+        text-align: justify;
+    }
+
+    .component-title {
+        width: 100%;
+        text-align: center;
+        margin: 0;
+        padding: 3rem;
+
+        h2 {
+            font-size: 3.5rem;
+        }
+
+        &-light {
+            color: $body-bg;
+        }
+
+        &-dark {
+            color: $body-bg-light;
+        }
+    }
 }
