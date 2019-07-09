@@ -1,5 +1,5 @@
 <template>
-    <h1 class="title rainbow"
+    <h1 class="component-typography-title rainbow rainbow-text"
         @mouseover="onMouseOver($event)"
         @mouseleave="onMouseLeave($event)"
     >
@@ -18,7 +18,7 @@
         },
         data: () => ({
             title: '',
-            words: ['othyn', 'code', 'photo', 'fun', 'game', 'dog', 'apple', 'php', 'laravel', 'github', 'twitter', 'youtube', 'space', 'your mum', 'vue', 'sublime', 'hyper', 'swift', 'pc', 'mac', 'sass', 'skiing', 'movies', 'halo', 'cod', 'battlefield', 'factorio', 'sums', 'lincoln', 'developer', 'physics', 'music', 'design', 'play', 'experiment', 'change', 'words'],
+            words: ['othyn', 'ben', 'code', 'photo', 'fun', 'game', 'dog', 'apple', 'php', 'laravel', 'github', 'twitter', 'youtube', 'space', 'your mum', 'vue', 'sublime', 'hyper', 'swift', 'pc', 'mac', 'sass', 'skiing', 'movies', 'halo', 'cod', 'battlefield', 'factorio', 'sums', 'lincoln', 'developer', 'physics', 'music', 'design', 'play', 'experiment', 'change', 'words', 'hello world'],
             wordInterval: 150,
             currentWordBlastCount: 0,
             currentWordBlastTimeout: 0
@@ -32,13 +32,13 @@
             onMouseOver(event) {
                 if (this.isFullScreen) {
                     $('body').addClass('rainbow')
-                    $(event.target).removeClass('rainbow')
+                    $(event.target).removeClass('rainbow rainbow-text')
                 }
             },
             onMouseLeave(event) {
                 if (this.isFullScreen) {
                     $('body').removeClass('rainbow')
-                    $(event.target).addClass('rainbow')
+                    $(event.target).addClass('rainbow rainbow-text')
                 }
             },
             reset() {
