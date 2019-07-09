@@ -18,6 +18,12 @@
         material-color('deep-orange', '400'));
     background-size: 1000% 1000%;
     animation: rainbow 30s ease infinite;
+
+    &-text {
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        letter-spacing: inherit;
+    }
 }
 
 @keyframes rainbow {
