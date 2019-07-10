@@ -9,21 +9,23 @@
     @endcomponent
 
     @component('components.block', ['type' => 'light'])
-        @slot('title')
-            {{-- hello world --}}
-            man me
-        @endslot
-
+        @slot('title', 'man me')
         @include('home.about')
     @endcomponent
 
     @component('components.block', ['type' => 'dark'])
-        @slot('title')
-            {{-- history of me --}}
-            history | grep me
-        @endslot
+        @slot('title', 'history | grep me')
+        @include('home.history')
+    @endcomponent
 
-        @include('home.timeline')
+    @component('components.block', ['type' => 'light'])
+        @slot('title', 'htop')
+        @include('home.skills')
+    @endcomponent
+
+    @component('components.block', ['type' => 'dark'])
+        @slot('title', 'cd ~/git && ls -lah')
+        @include('home.projects')
     @endcomponent
 
 @endsection
