@@ -10,7 +10,7 @@
 .component-block {
     width: 100%;
     margin: 4.5rem 0;
-    padding: 2rem 0;
+    padding: 5rem 0;
 
     &-light {
         background: $body-bg-light;
@@ -35,18 +35,33 @@
         width: 100%;
         text-align: center;
         margin: 0;
-        padding: 3rem;
 
         h2 {
+            display: inline-block;
             font-size: 3.5rem;
+            margin-bottom: 4rem;
+            border-right: .2rem solid;
+            padding-right: 1rem;
+            animation: blink-caret 1s ease infinite;
         }
 
         &-light {
             color: $body-bg;
+            border-color: $body-bg;
         }
 
         &-dark {
             color: $body-bg-light;
+            border-color: $body-bg-light;
         }
+    }
+}
+
+@keyframes blink-caret {
+    from, to {
+        border-color: transparent;
+    }
+    50% {
+        border-color: inherit;
     }
 }
