@@ -6,7 +6,7 @@
         <div class="container h-100">
             <div class="row h-100 align-items-center text-center">
                 <div class="col-12">
-                    <h4 class="subtitle rainbow">@yield('code'). @yield('message').</h4>
+                    <h1 class="rainbow rainbow-text">@yield('code'). @yield('message').</h1>
                 </div>
             </div>
         </div>
