@@ -1,16 +1,16 @@
 <!DOCTYPE html>
-<html lang="{{ str_replace('_', '-', app()->getLocale()) }}" class="h-100">
+<html lang="{{ str_replace('_', '-', app()->getLocale()) }}" class="w-100 h-100">
     @include ('layouts.header')
 
-    <body class="h-100">
-        <div id="app" class="h-100">
-            @if (View::hasSection('main-content'))
-                @yield ('main-content')
-            @else
-                @component('components.fullscreen')
-                    <h4 class="subtitle rainbow">This page has no content.</h4>
-                @endcomponent
-            @endif
+    <body class="terminal w-100 h-100">
+        <div id="app">
+            <div class="container">
+                @include('layouts.nav')
+
+                <main>
+                    @yield ('main-content')
+                </main>
+            </div>
         </div>
 
         @include ('layouts.footer')
