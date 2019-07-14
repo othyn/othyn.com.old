@@ -1,9 +1,9 @@
-<div class="component-block component-block-{{ $type }}">
-    @component('components.title', ['type' => $type])
-        {{ $title }}
-    @endcomponent
+<section id="{{ $id }}">
+    <header>
+        <h1 class="terminal-prompt">{{ $title }}</h1>
+    </header>
 
-    <div class="container">
-        {{ $slot }}
-    </div>
-</div>
+    {{ $slot }}
+</section>
+
+<hr>
