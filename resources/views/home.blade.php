@@ -14,18 +14,28 @@
     @endcomponent
 
     @component('components.block', ['type' => 'dark'])
+        @slot('title', 'htop')
+        @include('home.skills')
+    @endcomponent
+
+    @component('components.block', ['type' => 'light'])
+        @slot('title', 'ls -lah ~/git')
+        @include('home.projects')
+    @endcomponent
+
+    @component('components.block', ['type' => 'dark'])
         @slot('title', 'history | grep me')
         @include('home.history')
     @endcomponent
 
     @component('components.block', ['type' => 'light'])
-        @slot('title', 'htop')
-        @include('home.skills')
+        @slot('title', 'ls -lah /opt')
+        @include('home.hobbies')
     @endcomponent
 
     @component('components.block', ['type' => 'dark'])
-        @slot('title', 'cd ~/git && ls -lah')
-        @include('home.projects')
+        @slot('title', 'wall')
+        @include('home.social')
     @endcomponent
 
 @endsection
