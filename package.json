@@ -19,5 +19,8 @@
         "sass-material-colors": "^0.0.5",
         "vue": "^2.5.17",
         "vue-template-compiler": "^2.6.10"
+    },
+    "dependencies": {
+        "terminal.css": "^0.6.6"
     }
 }
