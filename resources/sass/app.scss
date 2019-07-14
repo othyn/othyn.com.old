@@ -7,14 +7,8 @@
 // Variables
 @import 'variables';
 
-// Bootstrap
-@import '~bootstrap/scss/bootstrap';
-
-// Error styling
-@import 'errors';
+// Terminal
+@import '~terminal.css/dist/terminal.min.css';
 
 // Rainbow styling
 @import 'rainbow';
-
-// Component styling
-@import 'components';
