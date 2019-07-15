@@ -1,0 +1,8 @@
+// Overrides for terminal.css
+
+.terminal {
+    .terminal-prompt,
+    .terminal-prompt h1 {
+        font-size: calc(var(--global-font-size) * 1.2);
+    }
+}
