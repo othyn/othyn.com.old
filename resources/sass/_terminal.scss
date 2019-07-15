@@ -5,4 +5,49 @@
     .terminal-prompt h1 {
         font-size: calc(var(--global-font-size) * 1.2);
     }
+
+    .terminal-card-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: stretch;
+        margin-bottom: 25px;
+
+        .terminal-card:first-child {
+            margin-right: 25px;
+        }
+    }
+
+    .terminal-timeline {
+        position: relative;
+        padding-left: 70px;
+
+        &:before {
+            content: ' ';
+            background: var(--secondary-color);
+            display: inline-block;
+            position: absolute;
+            left: 35px;
+            width: 2px;
+            height: 100%;
+            z-index: 400;
+        }
+
+        .terminal-card {
+            margin-bottom: 25px;
+        }
+
+        .terminal-card:before {
+            content: ' ';
+            background: var(--invert-font-color);
+            border: 2px solid var(--secondary-color);
+            display: inline-block;
+            position: absolute;
+            margin-top: 25px;
+            left: 26px;
+            width: 15px;
+            height: 15px;
+            z-index: 400;
+        }
+    }
 }
