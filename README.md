@@ -35,11 +35,13 @@ Consistency is nice.
 ### Installation
 These are the requirements for the project specifically, installing project dependencies via composer and setting up Homestead for use with Vagrant.
 
-The steps below can be followed, or you can also use the installation script in the root of the project directory too.
+You can also use the installation script in the root of the project directory:
 
 ```bash
 $ cd ~/git/othyn.com && ./install.sh
 ```
+
+... or the steps below can be followed:
 
 0. Clone the project somewhere on your machine to work out of. I recommend somewhere easily accessible, `~/git/othyn.com`. `$ cd` into the project, wherever you cloned it, as all of the below will need to be executed from within it.
 
