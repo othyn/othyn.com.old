@@ -7,7 +7,10 @@
     @component('components.block', ['id' => 'about'])
         @slot('title', 'man me')
         @include('home.about')
-        <hr>
+    @endcomponent
+
+    @component('components.block', ['id' => 'skills'])
+        @slot('title', 'htop')
         @include('home.skills')
     @endcomponent
 

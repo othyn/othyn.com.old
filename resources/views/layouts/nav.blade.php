@@ -12,6 +12,9 @@
                 <a class="menu-item" href="#about">about.</a>
             </li>
             <li>
+                <a class="menu-item" href="#skills">skills.</a>
+            </li>
+            <li>
                 <a class="menu-item" href="#projects">projects.</a>
             </li>
             <li>

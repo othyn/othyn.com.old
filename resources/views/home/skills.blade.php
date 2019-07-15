@@ -33,7 +33,7 @@
     <div class="progress-bar-filled" style="width: 75%" data-filled="Cloud. Big."></div>
 </div>
 
-<p>Computers [Hardware, Linux, macOS, Windows, network & systems admin]</p>
+<p>Computers [Hardware, Linux, macOS, Windows, virtualisation, network & systems admin]</p>
 <div class="progress-bar progress-bar-show-percent">
     <div class="progress-bar-filled" style="width: 85%" data-filled="Anything with a plug."></div>
 </div>
