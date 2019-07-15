@@ -1,5 +1,5 @@
 <template>
-    <h1 class="component-typography-title rainbow rainbow-text"
+    <h1 class="rainbow rainbow-text"
         @mouseover="onMouseOver($event)"
         @mouseleave="onMouseLeave($event)"
     >

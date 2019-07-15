@@ -2,7 +2,7 @@
     <div class="terminal-logo">
         <div class="logo terminal-prompt">
             <a href="/" class="no-style">
-                <typography-title is-full-screen></typography-title>
+                <word-blast is-full-screen></word-blast>
             </a>
         </div>
     </div>
