@@ -4,12 +4,20 @@
 // Material Colours
 @import 'sass-material-colors';
 
+// Helpers
+@import 'helpers';
+
 // Variables
 @import 'variables';
 
-// Bootstrap
-@import '~bootstrap/scss/bootstrap';
+// Terminal
+@import '~terminal.css/dist/terminal.min.css';
 
-// Title styling
-@import 'title';
+// Terminal overrides
+@import 'terminal';
 
+// Rainbow styling
+@import 'rainbow';
+
+// Component styling
+@import 'components';

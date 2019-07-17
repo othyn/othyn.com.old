@@ -1,3 +1,5 @@
+// Handles the rainbow effect, woah
+
 .rainbow {
     background: linear-gradient(135deg,
         material-color('red', '400'),
@@ -18,29 +20,21 @@
         material-color('deep-orange', '400'));
     background-size: 1000% 1000%;
     animation: rainbow 30s ease infinite;
+
+    &-text {
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
 }
 
 @keyframes rainbow {
     0% {
-        background-position: 0% 80%
+        background-position: 0% 0%
     }
     50% {
-        background-position: 100% 20%
+        background-position: 100% 100%
     }
     100% {
-        background-position: 0% 80%
+        background-position: 0% 0%
     }
-}
-
-h1.title {
-    color: $body-bg;
-    font-size: 7rem;
-    transition: letter-spacing 1.2s cubic-bezier(0.4, 0, 0.2, 1);
-    letter-spacing: .8rem;
-}
-
-h1.title.rainbow {
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    letter-spacing: inherit;
 }

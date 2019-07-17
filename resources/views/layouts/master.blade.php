@@ -1,14 +1,16 @@
 <!DOCTYPE html>
-<html lang="{{ str_replace('_', '-', app()->getLocale()) }}" class="h-100">
+<html lang="{{ str_replace('_', '-', app()->getLocale()) }}" class="w-100 h-100">
     @include ('layouts.header')
 
-    <body class="h-100">
-        <div id="app" class="h-100">
-            @if (View::hasSection('main-content'))
-                <div class="container h-100">
+    <body class="terminal w-100 h-100">
+        <div id="app">
+            <div class="container">
+                @include('layouts.nav')
+
+                <main>
                     @yield ('main-content')
-                </div>
-            @endif
+                </main>
+            </div>
         </div>
 
         @include ('layouts.footer')
