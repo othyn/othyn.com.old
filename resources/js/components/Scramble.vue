@@ -1,5 +1,5 @@
 <template>
-    <span
+    <span class="scramble"
         @mouseover="onMouseOver($event)"
         @mouseleave="onMouseLeave($event)"
     >
@@ -12,36 +12,40 @@
         data: () => ({
             interval: null
         }),
+        computed: {
+            originalText() {
+                return this.$slots.default[0].text
+            }
+        },
         methods: {
             onMouseOver(event) {
-                this.interval = setInterval(() =>
-                    element.innerText = scrambleText(originalText)
-                , 100)
+                clearInterval(this.interval)
+                event.target.innerText = this.originalText
             },
             onMouseLeave(event) {
-                clearInterval(this.interval)
-                element.innerText = originalText
-                // https://stackoverflow.com/questions/50298298/how-to-pass-a-method-in-vue-js-slot-scope
-                // https://codepen.io/stphnnnn/pen/PmEdVw
+                this.scramble(event.target)
             },
             getRandomInt(max) {
                 return Math.floor(Math.random() * max)
             },
             getRandomFromArray(array) {
-                return array[randomInt(array.length)]
+                return array[this.getRandomInt(array.length)]
             },
-            wordBlast() {
-                if (this.currentWordBlastCount > 0) {
-                    this.title = this.getRandomWord()
-                    --this.currentWordBlastCount
-                    setTimeout(this.wordBlast, this.wordInterval)
-                } else {
-                    this.reset()
-                    this.currentWordBlastCount = this.getRandomCount()
-                    this.currentWordBlastTimeout = this.getRandomTimeout()
-                    setTimeout(this.wordBlast, this.currentWordBlastTimeout)
-                }
+            scrambleText (text) {
+                let chars = 'abcdef01234567'.split('')
+                return text
+                    .split('')
+                    .map(x => this.getRandomFromArray(chars))
+                    .join('')
             },
+            scramble(el) {
+                this.interval = setInterval(() =>
+                    el.innerText = this.scrambleText(this.originalText)
+                , 150)
+            }
+        },
+        mounted() {
+            this.scramble(this.$el)
         }
     }
 </script>
