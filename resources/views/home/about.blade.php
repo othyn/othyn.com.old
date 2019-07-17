@@ -9,3 +9,5 @@
 <p>Software development is my calling, facilitated by my innate ability to quickly consume, understand and distil information to support others. I also have a strong sense of self motivation and passion for high-quality software development, always delivering to a progressive personal standard.</p>
 
 <p>I am devoted. I live and breathe any and all things software and hardware and am pretty much interested in anything that has a plug socket on it; opening it up, tinkering around and seeing how it all works. I love the way I can create and let my mind run wild through, what is usually, a rigid and unforgiving electrical world - but I seem to have a knack for it, I speak its language.</p>
+
+<p>p.s. I may also like Apple. I love all tech, but them.. just a little more. Just an incy bit.</p>

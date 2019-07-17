@@ -1,3 +1,5 @@
+<p>A quick breakdown of how I rate my technical skills, not everything, but the core stuff.</p>
+
 <p>PHP 5-7 [Symfony, Laravel, CodeIgniter, PHPUnit, Composer]</p>
 <div class="progress-bar progress-bar-show-percent">
     <div class="progress-bar-filled" style="width: 90%" data-filled="There's always room for learning."></div>

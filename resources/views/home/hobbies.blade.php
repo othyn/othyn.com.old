@@ -1,4 +1,5 @@
-{{-- Talk a bit about photography, gaming, skiing, hiking? --}}
+<p>Everyone needs to take a break and enjoy life, besides tech, here's how I like to spend mine!</p>
+
 <table>
     <thead>
         <tr>
@@ -16,7 +17,7 @@
         <tr>
             <th>2</th>
             <th>hiking</th>
-            <td>shortly followed by hiking, which tends to preceed skiing. Getting into the outdoors, walking and experiencing new places. The views.</td>
+            <td>shortly followed by hiking, which tends to preceed skiing. Getting into the outdoors, walking and experiencing new places. The views. Camping! Camping is where its at, spent a long time camping and love every minute.</td>
         </tr>
         <tr>
             <th>3</th>

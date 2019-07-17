@@ -1,5 +1,5 @@
-{{-- Git project listings, etc. --}}
-{{-- Cover dotfiles? --}}
+<p>A sample of some of the projects I've contributed to, not everything listed here, in which for a full list - check out <a href="https://github.com/othyn" target="_blank" rel="noopener noreferrer">my github</a>.</p>
+
 <div class="terminal-card-container">
     <div class="terminal-card">
         <header>char-count-es6</header>
