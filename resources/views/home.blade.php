@@ -34,4 +34,6 @@
         @include('home.social')
     @endcomponent
 
+    @include('home.footer')
+
 @endsection
