@@ -1,4 +1,4 @@
-<p>In the rare occasion that you'd actually like to get in touch with me, ping me on one of these:</p>
+<p>In the rare occasion that you'd actually like to get in touch with me, ping me on one of these. I usually go by the handle othyn, if you haven't already guessed.</p>
 
 <div class="flex">
     <!-- The goggles, they do nothing! -->
