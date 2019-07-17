@@ -6,6 +6,16 @@
         font-size: calc(var(--global-font-size) * 1.2);
     }
 
+    .terminal-card {
+        .btn.btn-ghost {
+            border: {
+                bottom: 0;
+                left: 0;
+                right: 0;
+            }
+        }
+    }
+
     .terminal-card-container {
         display: flex;
         flex-direction: row;
