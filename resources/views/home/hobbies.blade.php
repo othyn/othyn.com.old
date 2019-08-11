@@ -29,5 +29,10 @@
             <th>motorsport</th>
             <td>as a kid, I said i'd never do it. But now, I'm hooked. F1. A petrol head and electric head, combined brings a shine to Tesla. Although for now, Golf R 7.5 crew.</td>
         </tr>
+        <tr>
+            <th>5</th>
+            <th>gaming</th>
+            <td>a huge one for me and a chunk of my life. Creating, playing and exploring games/worlds/experiences.</td>
+        </tr>
     </tbody>
 </table>
