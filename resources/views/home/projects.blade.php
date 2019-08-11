@@ -2,6 +2,20 @@
 
 <div class="terminal-card-container">
     <div class="terminal-card">
+        <header>this website</header>
+        <div>The website you are seeing right now, it's source.</div>
+        <a href="https://github.com/othyn/othyn.com" target="_blank" rel="noopener noreferrer" class="btn btn-block btn-ghost btn-default">view on github</a>
+    </div>
+
+    <div class="terminal-card">
+        <header>emilyraisin.com</header>
+        <div>A website for a very special person, but one created to be professional and allow for expansion.</div>
+        <a href="https://github.com/othyn/emilyraisin.com" target="_blank" rel="noopener noreferrer" class="btn btn-block btn-ghost btn-default">view on github</a>
+    </div>
+</div>
+
+<div class="terminal-card-container">
+    <div class="terminal-card">
         <header>char-count-es6</header>
         <div>A very simple and light weight ES library for managing input lengths.</div>
         <a href="https://github.com/othyn/char-count-es6" target="_blank" rel="noopener noreferrer" class="btn btn-block btn-ghost btn-default">view on github</a>
@@ -23,7 +37,7 @@
 
     <div class="terminal-card">
         <header>dotfiles</header>
-        <div>My dotfiles which follow me where ever I go! Stores my complete setup, with automated installation and management scripts.</div>
+        <div>My dotfiles which follow me where ever I go! Stores my complete setup, with automated installation and management scripts. Although these may be private at the time of viewing...</div>
         <a href="https://github.com/othyn/dotfiles" target="_blank" rel="noopener noreferrer" class="btn btn-block btn-ghost btn-default">view on github</a>
     </div>
 </div>
