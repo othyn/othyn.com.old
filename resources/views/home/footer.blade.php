@@ -1,1 +1,1 @@
-<p>Version: 1.1 <a class="pull-right" href="#app">Top</a></p>
+<p>Version: <a href="https://github.com/othyn/othyn.com/releases">1.2</a> <a class="pull-right" href="#app">Top</a></p>

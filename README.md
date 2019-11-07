@@ -9,6 +9,7 @@ My personal website! ... But why an entire Laravel installation for a personal w
   * [Installation](#installation)
 * [Development](#development)
 * [Deployment](#deployment)
+* [Changelog](#changelog)
 
 ## Setup
 I'll cover the step-by-step process below for getting up and running for this project, using Docker as its local hosting tool.
@@ -51,3 +52,6 @@ Follow the [Usage steps in the `docker-compose-laravel` repo](https://github.com
 More of a personal note really. Copy the *finalised* .env file to the webserver's doc root for the virtual host. Finalised meaning; app key set, environment set to production, debug to false and db credentials in place. Getting it onto the webserver, which is usually easiest either via a straight scp or ssh and `nano /var/www/othyn.com/shared/.env` and paste the contents in. Then `chown deployer:www-data /var/www/othyn.com/shared/.env && chmod 640 /var/www/othyn.com/shared/.env` to set the permissions. Then finally, `dep deploy` and it should be golden! Then update the version number if required and tag the release on GitHub, inline with [semantic versioning](https://semver.org).
 
 Yes, having the deployment file does give away quite a bit of usually good-to-keep-obscure information. But its a sharing exercise, to hopefully help someone understand in the context of a project. One day.
+
+## Changelog
+[View the repo's releases to see the change history](https://github.com/othyn/othyn.com/releases).
