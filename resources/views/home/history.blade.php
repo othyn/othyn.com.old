@@ -1,4 +1,4 @@
-<p>Not quite an archaeological dig and I like to think I've accomplished a lot in the short space of time that I've been on this here blue dot, with plenty more to come! Once developed, this timeline element was PR'd back into the <a href="https://github.com/Gioni06/terminal.css">Terminal CSS</a> framework.</p>
+<p>Not quite an archaeological dig and I like to think I've accomplished a lot in the short space of time that I've been on this here blue dot, with plenty more to come! Once developed, this timeline element was PR'd back into the <a href="https://github.com/Gioni06/terminal.css" target="_blank" rel="noopener noreferrer">Terminal CSS</a> framework.</p>
 
 <div class="terminal-timeline">
     <div class="terminal-card">
