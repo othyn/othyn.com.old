@@ -16,15 +16,15 @@
 
 <div class="terminal-card-container">
     <div class="terminal-card">
-        <header>char-count-es6</header>
-        <div>A very simple and light weight ES library for managing input lengths.</div>
-        <a href="https://github.com/othyn/char-count-es6" target="_blank" rel="noopener noreferrer" class="btn btn-block btn-ghost btn-default">view on github</a>
+        <header>docker-compose-laravel</header>
+        <div>A Docker Compose setup for Laravel projects.</div>
+        <a href="https://github.com/othyn/docker-compose-laravel" target="_blank" rel="noopener noreferrer" class="btn btn-block btn-ghost btn-default">view on github</a>
     </div>
 
     <div class="terminal-card">
-        <header>pub-golf</header>
-        <div>A pub golf web app to have some fun with. Made for a friends birthday!</div>
-        <a href="https://github.com/othyn/pub-golf" target="_blank" rel="noopener noreferrer" class="btn btn-block btn-ghost btn-default">view on github</a>
+        <header>char-count-es6</header>
+        <div>A very simple and light weight ES library for managing input lengths.</div>
+        <a href="https://github.com/othyn/char-count-es6" target="_blank" rel="noopener noreferrer" class="btn btn-block btn-ghost btn-default">view on github</a>
     </div>
 </div>
 

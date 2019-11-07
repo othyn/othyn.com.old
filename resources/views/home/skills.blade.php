@@ -1,41 +1,25 @@
 <p>A quick breakdown of how I rate my technical skills, not everything, but the core stuff.</p>
 
 <p>PHP 5-7 [Symfony, Laravel, CodeIgniter, PHPUnit, Composer]</p>
-<div class="progress-bar progress-bar-show-percent">
-    <div class="progress-bar-filled" style="width: 90%" data-filled="There's always room for learning."></div>
-</div>
+<progress-bar :delay="5" :progress="95" label="There's always room for learning."></progress-bar>
 
 <p>JavaScript ES5-7 [Vue.js, Vuex, webpack]</p>
-<div class="progress-bar progress-bar-show-percent">
-    <div class="progress-bar-filled" style="width: 65%" data-filled="The rabbit hole is deep."></div>
-</div>
+<progress-bar :delay="6" :progress="65" label="The rabbit hole is deep."></progress-bar>
 
 <p>Swift 1-5 & SwiftUI</p>
-<div class="progress-bar progress-bar-show-percent">
-    <div class="progress-bar-filled" style="width: 45%" data-filled="UI Components ♥."></div>
-</div>
+<progress-bar :delay="7" :progress="45" label="UI Components ♥."></progress-bar>
 
 <p>MySQL 5-8</p>
-<div class="progress-bar progress-bar-show-percent">
-    <div class="progress-bar-filled" style="width: 75%" data-filled="Big data. Big smarts."></div>
-</div>
+<progress-bar :delay="8" :progress="80" label="Big data. Big smarts."></progress-bar>
 
 <p>HTML 5 & CSS 3 [SASS, LESS]</p>
-<div class="progress-bar progress-bar-show-percent">
-    <div class="progress-bar-filled" style="width: 95%" data-filled="The basics."></div>
-</div>
+<progress-bar :delay="9" :progress="95" label="The basics."></progress-bar>
 
-<p>Tooling [ZSH, dotfiles, Git, Vagrant, Sublime Suite, Hyper, TablePlus]</p>
-<div class="progress-bar progress-bar-show-percent">
-    <div class="progress-bar-filled" style="width: 95%" data-filled="I know how I like it. Today."></div>
-</div>
+<p>Tooling [ZSH, dotfiles, Git, Docker, Vagrant, Sublime Suite, Hyper, TablePlus]</p>
+<progress-bar :delay="10" :progress="95" label="I know how I like it. Today."></progress-bar>
 
 <p>AWS [EB, CD, EC2, S3, RDS] & DO</p>
-<div class="progress-bar progress-bar-show-percent">
-    <div class="progress-bar-filled" style="width: 75%" data-filled="Cloud. Big."></div>
-</div>
+<progress-bar :delay="12" :progress="75" label="Cloud. Bigly."></progress-bar>
 
 <p>Computers [Hardware, Linux, macOS, Windows, virtualisation, network & systems admin]</p>
-<div class="progress-bar progress-bar-show-percent">
-    <div class="progress-bar-filled" style="width: 85%" data-filled="Anything with a plug."></div>
-</div>
+<progress-bar :delay="13" :progress="85" label="Anything with a plug."></progress-bar>

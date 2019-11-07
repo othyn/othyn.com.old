@@ -1,9 +1,9 @@
-<p>Not quite an archaeological dig and I like to think I've accomplished a lot in the short space of time that I've been on this here blue dot, with plenty more to come! Once developed, this timeline element was PR'd back into the framework.</p>
+<p>Not quite an archaeological dig and I like to think I've accomplished a lot in the short space of time that I've been on this here blue dot, with plenty more to come! Once developed, this timeline element was PR'd back into the <a href="https://github.com/Gioni06/terminal.css">Terminal CSS</a> framework.</p>
 
 <div class="terminal-timeline">
     <div class="terminal-card">
         <header>2019</header>
-        <div>What lay ahead. 25. This is an exciting year with many opportunities. More to come.</div>
+        <div>What lay ahead. 25. Now based at Kamma in London. Big move! Senior Software Engineer. Exciting new challenges in a tight knit company, a team, loving it.</div>
     </div>
     <div class="terminal-card">
         <header>2018</header>

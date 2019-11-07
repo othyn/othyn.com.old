@@ -9,6 +9,16 @@ require('./bootstrap');
 window.Vue = require('vue');
 
 /**
+ * Some globals that will be used throughout the app. Although if this gets
+ * any larger, implement a VueX store.
+ */
+// Vue.mixin({
+//     data: () => ({
+//         skillProgressDelay: 500
+//     })
+// });
+
+/**
  * The following block of code may be used to automatically register your
  * Vue components. It will recursively scan this directory for the Vue
  * components and automatically register them with their "basename".
