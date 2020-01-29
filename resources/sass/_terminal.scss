@@ -1,6 +1,7 @@
 // Overrides for terminal.css
 
 .terminal {
+
     .terminal-prompt,
     .terminal-prompt h1 {
         font-size: calc(var(--global-font-size) * 1.2);
@@ -60,4 +61,8 @@
             z-index: 400;
         }
     }
+}
+
+.terminal-menu li a:not(.btn) {
+    padding: 15px 0;
 }
