@@ -12,5 +12,10 @@
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
     <link rel="manifest" href="/site.webmanifest">
 
-    <link rel="preload" as="style" href="{{ mix('/css/app.css') }}">
+    <link rel="preload" href="{{ mix('/css/app.css') }}" as="style">
+    <link rel="preload" href="{{ mix('/js/manifest.js') }}" as="script">
+    <link rel="preload" href="{{ mix('/js/vendor.js') }}" as="script">
+    <link rel="preload" href="{{ mix('/js/app.js') }}" as="script">
+
+    <link rel="stylesheet" href="{{ mix('/css/app.css') }}">
 </head>
