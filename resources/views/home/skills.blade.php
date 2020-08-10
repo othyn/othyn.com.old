@@ -15,10 +15,10 @@
 <p>HTML 5 & CSS 3 [SASS, LESS]</p>
 <progress-bar :delay="9" :progress="95" label="The basics."></progress-bar>
 
-<p>Tooling [ZSH, dotfiles, Git, Docker, Vagrant, Sublime Suite, Hyper, TablePlus]</p>
-<progress-bar :delay="10" :progress="95" label="I know how I like it. Today."></progress-bar>
+<p>Tooling [ZSH, YADM, Python, dotfiles, Git, Docker (+ Compose), VS Code, Vagrant, Sublime Suite, Hyper, TablePlus]</p>
+<progress-bar :delay="10" :progress="95" label="I know how I like it ... today ..."></progress-bar>
 
-<p>AWS [EB, CD, EC2, S3, RDS] & DO</p>
+<p>AWS [EB, CD, EC2, S3, RDS], DigitalOcean & Kubernetes</p>
 <progress-bar :delay="12" :progress="75" label="Cloud. Bigly."></progress-bar>
 
 <p>Computers [Hardware, Linux, macOS, Windows, virtualisation, network & systems admin]</p>
